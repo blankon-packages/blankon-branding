@@ -1,0 +1,16 @@
+#! /bin/sh
+set -e
+
+case "$1" in
+  configure)
+  if [ -f /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp ]; then
+    dpkg-divert --add --local --divert /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp.divert --rename /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp
+    cp -a /usr/lib/openoffice/program/openintro_ubuntu_sun-blankon.bmp /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp
+  fi
+  if [ -f /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp ]; then
+    dpkg-divert --add --local --divert /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp.divert --rename /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
+    cp -a /usr/lib/openoffice/program/openabout_ubuntu_sun-blankon.bmp /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
+  fi
+esac
+
+exit 0

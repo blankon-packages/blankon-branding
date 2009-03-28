@@ -1,0 +1,12 @@
+#! /bin/sh
+set -e
+
+case "$1" in
+  configure)
+  if [ -f /usr/share/gimp/2.0/images/gimp-splash.png ]; then
+    dpkg-divert --add --local --divert /usr/share/gimp/2.0/images/gimp-splash.png.divert --rename /usr/share/gimp/2.0/images/gimp-splash.png
+    cp -a /usr/share/gimp/2.0/images/gimp-splash-blankon.png /usr/share/gimp/2.0/images/gimp-splash.png
+  fi
+esac
+
+exit 0

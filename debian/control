@@ -1,0 +1,16 @@
+Source: nanggar-branding
+Priority: optional
+Section: gnome
+Maintainer: BlankOn Developers <BlankOn-dev@googlegroups.com>
+Standards-Version: 3.7.0
+Build-Depends: debhelper, cdbs, coreutils
+
+Package: nanggar-branding-gimp
+Architecture: all
+Depends: ${shlibs:Depends}, gimp
+Description: Rebranding Ubuntu Package to BlankOn
+
+Package: nanggar-branding-ooo
+Architecture: all
+Depends: ${shlibs:Depends}, openoffice.org-core
+Description: Rebranding Ubuntu Package to BlankOn
