@@ -8,9 +8,14 @@ Build-Depends: debhelper, cdbs, coreutils
 Package: nanggar-branding-gimp
 Architecture: all
 Depends: ${shlibs:Depends}, gimp
-Description: Rebranding Ubuntu Package to BlankOn
+Description: Rebranding Ubuntu GIMP Package to BlankOn GIMP Package
 
 Package: nanggar-branding-ooo
 Architecture: all
 Depends: ${shlibs:Depends}, openoffice.org-core
-Description: Rebranding Ubuntu Package to BlankOn
+Description: Rebranding Ubuntu OpenOffice Package to BlankOn OpenOffice Package
+
+Package: nanggar-branding-inkscape
+Architecture: all
+Depends: ${shlibs:Depends}, inkscape
+Description: Rebranding Ubuntu Inkscape Package to BlankOn Inkscape Package
