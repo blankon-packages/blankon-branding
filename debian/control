@@ -19,3 +19,8 @@ Package: nanggar-branding-inkscape
 Architecture: all
 Depends: ${shlibs:Depends}, inkscape
 Description: Rebranding Ubuntu Inkscape Package to BlankOn Inkscape Package
+
+Package: nanggar-branding-tango-icon-theme
+Architecture: all
+Depends: ${shlibs:Depends}, tango-icon-theme
+Description: Rebranding Ubuntu tango-icon-theme Package to BlankOn tango-icon-theme Package
