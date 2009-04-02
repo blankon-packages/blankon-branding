@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+icon_dir="/usr/share/icons/Tangerine/"
+
+case "$1" in
+  configure)
+  if [ -d $icon_dir ]; then
+    find $icon_dir -name 'start-here-blankon.*' | while read target; do \
+      berkasasli="`echo $target | sed 's/-blankon//'`"; \
+      dpkg-divert --add --local --divert $berkasasli.divert --rename $berkasasli
+      cp -a $target $berkasasli
+    done;
+  fi
+esac
+
+exit 0

@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+icon_dir="/usr/share/icons/Tangerine/"
+
+find $icon_dir -name '*.divert' | while read target; do \
+  berkasasli="`echo $target | sed 's/\.divert//'`"; \
+  rm -f $berkasasli
+  dpkg-divert --remove --rename $berkasasli
+done;
