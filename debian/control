@@ -34,3 +34,9 @@ Package: nanggar-branding-tangerine-icon-theme
 Architecture: all
 Depends: ${shlibs:Depends}, tangerine-icon-theme
 Description: Rebranding Ubuntu tangerine-icon-theme Package to BlankOn tangerine-icon-theme Package
+
+Package: nanggar-branding-system-config-printer
+Architecture: all
+Depends: ${shlibs:Depends}, system-config-printer
+Description: Rebranding Ubuntu system-config-printer Package to BlankOn system-config-printer Package
+
