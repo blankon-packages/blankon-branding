@@ -5,6 +5,11 @@ Maintainer: BlankOn Developers <BlankOn-dev@googlegroups.com>
 Standards-Version: 3.7.0
 Build-Depends: debhelper, cdbs, coreutils
 
+Package: nanggar-branding-apt
+Architecture: any
+Depends: ${shlibs:Depends}, apt
+Description: Rebranding Ubuntu APT to BlankOn APT Package
+
 Package: nanggar-branding-gimp
 Architecture: all
 Depends: ${shlibs:Depends}, gimp
