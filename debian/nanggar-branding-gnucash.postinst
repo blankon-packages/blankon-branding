@@ -1,0 +1,12 @@
+#! /bin/sh
+set -e
+
+case "$1" in
+  configure)
+  if [ -f /usr/share/gnucash/pixmaps/gnucash_splash.png ]; then
+    dpkg-divert --add --local --divert /usr/share/gnucash/pixmaps/gnucash_splash.png.divert --rename /usr/share/gnucash/pixmaps/gnucash_splash.png
+    cp -a /usr/share/gnucash/pixmaps/gnucash_splash-blankon.png /usr/share/gnucash/pixmaps/gnucash_splash.png
+  fi
+esac
+
+exit 0

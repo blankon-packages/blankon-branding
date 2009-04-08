@@ -40,3 +40,7 @@ Architecture: all
 Depends: ${shlibs:Depends}, system-config-printer
 Description: Rebranding Ubuntu system-config-printer Package to BlankOn system-config-printer Package
 
+Package: nanggar-branding-gnucash
+Architecture: all
+Depends: ${shlibs:Depends}, gnucash
+Description: Rebranding Ubuntu gnucash Package to BlankOn gnucash Package
