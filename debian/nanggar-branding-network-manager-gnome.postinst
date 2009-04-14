@@ -1,0 +1,12 @@
+#! /bin/sh
+set -e
+
+case "$1" in
+  configure)
+  if [ -f /etc/xdg/autostart/nm-applet.desktop ]; then
+    dpkg-divert --add --local --divert /etc/xdg/autostart/nm-applet.desktop.divert --rename /etc/xdg/autostart/nm-applet.desktop
+    cp -a /etc/xdg/autostart/nm-applet-blankon.desktop /etc/xdg/autostart/nm-applet.desktop
+  fi
+esac
+
+exit 0

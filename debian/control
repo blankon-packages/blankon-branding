@@ -44,3 +44,8 @@ Package: nanggar-branding-gnucash
 Architecture: all
 Depends: ${shlibs:Depends}, gnucash
 Description: Rebranding Ubuntu gnucash Package to BlankOn gnucash Package
+
+Package: nanggar-branding-network-manager-gnome
+Architecture: all
+Depends: ${shlibs:Depends}, network-manager-gnome
+Description: Add LXDE into nm-applet.desktop

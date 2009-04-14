@@ -1,3 +1,9 @@
+nanggar-branding (0.2) nanggar; urgency=low
+
+  * Menambahkan branding network-manager-gnome
+
+ -- Muhammad Takdir <muhammad.takdir@gmail.com>  Tue, 14 Apr 2009 23:03:40 +0800
+
 nanggar-branding (0.1) nanggar; urgency=low
 
   * Rilis Awal
