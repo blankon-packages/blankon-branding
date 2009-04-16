@@ -1,0 +1,4 @@
+base-files/etc/issue-blankon /etc/
+base-files/etc/issue-blankon.net /etc/
+base-files/etc/lsb-release-blankon /etc/
+base-files/etc/motd-blankon /etc/
