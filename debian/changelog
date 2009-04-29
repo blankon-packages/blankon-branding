@@ -1,3 +1,9 @@
+nanggar-branding (0.4) nanggar; urgency=low
+
+  * added checkbox, menutup bug #256
+
+ -- Mahyuddin Susanto <udienz@ubuntu.com>  Wed, 29 Apr 2009 09:59:05 +0700
+
 nanggar-branding (0.3) nanggar; urgency=low
 
   * menambah rebranding base-files 

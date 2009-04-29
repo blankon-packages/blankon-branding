@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+base_dir="/usr/share/checkbox/gtk/"
+
+find $base_dir -name '*.divert' | while read target; do \
+  berkasasli="`echo $target | sed 's/\.divert//'`"; \
+  rm -f $berkasasli
+  dpkg-divert --remove --rename $berkasasli
+done;
