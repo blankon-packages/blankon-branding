@@ -1,16 +1,15 @@
-#!/bin/sh
+#! /bin/sh
 set -e
-
-base_dir="/usr/share/checkbox/gtk/"
 
 case "$1" in
   configure)
-  if [ -d $base_dir ]; then
-    find $base_dir -name 'blankon.*' | while read target; do \
-      berkasasli="`echo $target | sed 's/-blankon//'`"; \
-      dpkg-divert --add --local --divert $berkasasli.divert --rename $berkasasli
-      cp -a $target $berkasasli
-    done;
+  if [ -f /usr/share/checkbox/gtk/hwtest-gtk-head.png ]; then
+    dpkg-divert --add --local --divert /usr/share/checkbox/gtk/hwtest-gtk-head.png.divert --rename /usr/share/checkbox/gtk/hwtest-gtk-head.png
+    cp -a /usr/share/checkbox/gtk/blankon.hwtest-gtk-head.png /usr/share/checkbox/gtk/hwtest-gtk-head.png
+  fi
+  if [ -f /usr/share/checkbox/gtk/hwtest-gtk.glade ]; then
+    dpkg-divert --add --local --divert /usr/share/checkbox/gtk/hwtest-gtk.glade.divert --rename /usr/share/checkbox/gtk/hwtest-gtk.glade
+    cp -a /usr/share/checkbox/gtk/blankon.hwtest-gtk.glade /usr/share/checkbox/gtk/hwtest-gtk.glade
   fi
 esac
 
