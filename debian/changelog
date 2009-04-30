@@ -1,3 +1,9 @@
+nanggar-branding (0.5) nanggar; urgency=low
+
+  * menaikkan versi, karena ada perubahan di luar folder debian
+
+ -- Mahyuddin Susanto <udienz@ubuntu.com>  Thu, 30 Apr 2009 14:37:08 +0700
+
 nanggar-branding (0.4) nanggar; urgency=low
 
   * added checkbox, menutup bug #256
