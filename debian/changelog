@@ -1,3 +1,9 @@
+nanggar-branding (0.6) nanggar; urgency=low
+
+  * add launchpad-intregration package
+
+ -- Mahyuddin Susanto <udienz@ubuntu.com>  Thu, 30 Apr 2009 17:48:12 +0700
+
 nanggar-branding (0.5) nanggar; urgency=low
 
   * menaikkan versi, karena ada perubahan di luar folder debian
