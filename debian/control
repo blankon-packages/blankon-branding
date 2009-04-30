@@ -59,8 +59,10 @@ Package: nanggar-branding-checkbox
 Architecture: all
 Depends: ${shlibs:Depends}, checkbox
 Description: Rebranding Ubuntu checkbox Package to BlankOn checkbox package
+ Mengganti image di hardware test
 
 Package: nanggar-branding-launchpad-integration
 Architecture: all
 Depends: ${shlibs:Depends}, launchpad-integration
 Description: Rebranding Ubuntu launchpad-integration Package to BlankOn launchpad-integration package
+ Menambahkan berkas urls.py sehingga launchpad mengenali distro ini sebagai BlankOn bukan ubuntu
