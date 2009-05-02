@@ -37,7 +37,7 @@ Description: Rebranding Ubuntu tangerine-icon-theme Package to BlankOn tangerine
 
 Package: nanggar-branding-system-config-printer
 Architecture: all
-Depends: ${shlibs:Depends}, system-config-printer
+Depends: ${shlibs:Depends}, system-config-printer-gnome
 Description: Rebranding Ubuntu system-config-printer Package to BlankOn system-config-printer Package
 
 Package: nanggar-branding-gnucash
