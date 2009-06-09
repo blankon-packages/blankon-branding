@@ -1,11 +1,11 @@
 #! /bin/sh
 set -e
 
-if [ -f /usr/lib/system-config-printer/testpage-a4.ps.divert ]; then
-  rm -f /usr/lib/system-config-printer/testpage-a4.ps
-  dpkg-divert --remove --rename /usr/lib/system-config-printer/testpage-a4.ps
+if [ -f /usr/share/system-config-printer/testpage-a4.ps.divert ]; then
+  rm -f /usr/share/system-config-printer/testpage-a4.ps
+  dpkg-divert --remove --rename /usr/share/system-config-printer/testpage-a4.ps
 fi
-if [ -f /usr/lib/system-config-printer/testpage-letter.ps.divert ]; then
-  rm -f /usr/lib/system-config-printer/testpage-letter.ps
-  dpkg-divert --remove --rename /usr/lib/system-config-printer/testpage-letter.ps
+if [ -f /usr/share/system-config-printer/testpage-letter.ps.divert ]; then
+  rm -f /usr/share/system-config-printer/testpage-letter.ps
+  dpkg-divert --remove --rename /usr/share/system-config-printer/testpage-letter.ps
 fi

@@ -1,3 +1,10 @@
+nanggar-branding (0.6.3) nanggar; urgency=low
+
+  * perbaikan nanggar-branding-system-config-printer
+  * menutup tiket #357
+
+ -- Akhmat Safrudin <akhmat.safrudin@gmail.com>  Wed, 10 Jun 2009 00:43:48 +0700
+
 nanggar-branding (0.6.2) nanggar; urgency=low
 
   * perbaikan di checkbox/*glade
