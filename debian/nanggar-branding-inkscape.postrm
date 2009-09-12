@@ -1,7 +1,0 @@
-#! /bin/sh
-set -e
-
-if [ -f /usr/share/inkscape/screens/about.svg.divert ]; then
-  rm -f /usr/share/inkscape/screens/about.svg
-  dpkg-divert --remove --rename /usr/share/inkscape/screens/about.svg
-fi

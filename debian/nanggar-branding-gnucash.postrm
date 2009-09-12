@@ -1,7 +1,0 @@
-#! /bin/sh
-set -e
-
-if [ -f /usr/share/gnucash/pixmaps/gnucash_splash.png.divert ]; then
-  rm -f /usr/share/gnucash/pixmaps/gnucash_splash.png
-  dpkg-divert --remove --rename /usr/share/gnucash/pixmaps/gnucash_splash.png
-fi

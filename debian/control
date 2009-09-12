@@ -1,68 +1,68 @@
-Source: nanggar-branding
+Source: blankon-branding
 Priority: optional
 Section: gnome
 Maintainer: BlankOn Developers <BlankOn-dev@googlegroups.com>
 Standards-Version: 3.7.0
 Build-Depends: debhelper, cdbs, coreutils
 
-Package: nanggar-branding-apt
+Package: blankon-branding-apt
 Architecture: any
 Depends: ${shlibs:Depends}, apt
-Description: Rebranding Ubuntu APT to BlankOn APT Package
+Description: Rebranding paket apt Ubuntu ke paket apt BlankOn
 
-Package: nanggar-branding-gimp
+Package: blankon-branding-gimp
 Architecture: all
 Depends: ${shlibs:Depends}, gimp
-Description: Rebranding Ubuntu GIMP Package to BlankOn GIMP Package
+Description: Rebranding paket GIMP Ubuntu ke paket GIMP BlankOn
 
-Package: nanggar-branding-ooo
+Package: blankon-branding-openoffice
 Architecture: all
 Depends: ${shlibs:Depends}, openoffice.org-core
-Description: Rebranding Ubuntu OpenOffice Package to BlankOn OpenOffice Package
+Description: Rebranding paket OpenOffice Ubuntu ke paket OpenOffice BlankOn
 
-Package: nanggar-branding-inkscape
+Package: blankon-branding-inkscape
 Architecture: all
 Depends: ${shlibs:Depends}, inkscape
-Description: Rebranding Ubuntu Inkscape Package to BlankOn Inkscape Package
+Description: Rebranding paket Inkscape Ubuntu ke paket Inkscape BlankOn
 
-Package: nanggar-branding-tango-icon-theme
+Package: blankon-branding-tango-icon-theme
 Architecture: all
 Depends: ${shlibs:Depends}, tango-icon-theme
-Description: Rebranding Ubuntu tango-icon-theme Package to BlankOn tango-icon-theme Package
+Description: Rebranding paket tango-icon-theme Ubuntu ke paket tango icontheme BlankOn
 
-Package: nanggar-branding-tangerine-icon-theme
+Package: blankon-branding-tangerine-icon-theme
 Architecture: all
 Depends: ${shlibs:Depends}, tangerine-icon-theme
-Description: Rebranding Ubuntu tangerine-icon-theme Package to BlankOn tangerine-icon-theme Package
+Description: Rebranding paket tangerine-icon-theme Ubuntu ke paket tangerine-icon-theme BlankOn
 
-Package: nanggar-branding-system-config-printer
+Package: blankon-branding-system-config-printer
 Architecture: all
 Depends: ${shlibs:Depends}, system-config-printer-gnome
-Description: Rebranding Ubuntu system-config-printer Package to BlankOn system-config-printer Package
+Description: Rebranding paket system-config-printer-gnome Ubuntu ke system-config-printer-gnome-blankon
 
-Package: nanggar-branding-gnucash
+Package: blankon-branding-gnucash
 Architecture: all
 Depends: ${shlibs:Depends}, gnucash
-Description: Rebranding Ubuntu gnucash Package to BlankOn gnucash Package
+Description: Rebranding paket GNUCash Ubuntu ke paket GNUCash BlankOn
 
-Package: nanggar-branding-network-manager-gnome
+Package: blankon-branding-network-manager-gnome
 Architecture: all
 Depends: ${shlibs:Depends}, network-manager-gnome
 Description: Add LXDE into nm-applet.desktop
 
-Package: nanggar-branding-base-files
+Package: blankon-branding-base-files
 Architecture: all
 Depends: ${shlibs:Depends}, base-files
-Description: Rebranding Ubuntu base-files Package to BlankOn base-files package
+Description: Rebranding paket base-file Ubuntu ke paket base-file BlankOn
 
 Package: nanggar-branding-checkbox
 Architecture: all
 Depends: ${shlibs:Depends}, checkbox
-Description: Rebranding Ubuntu checkbox Package to BlankOn checkbox package
+Description: Rebranding paket checkbox Ubuntu ke paket checkbox BlankOn
  Mengganti image di hardware test
 
-Package: nanggar-branding-launchpad-integration
+Package: blankon-branding-launchpad-integration
 Architecture: all
 Depends: ${shlibs:Depends}, launchpad-integration
-Description: Rebranding Ubuntu launchpad-integration Package to BlankOn launchpad-integration package
+Description: Rebranding paket launchpad-integration Ubuntu ke paket launchpad-ingration BlankOn
  Menambahkan berkas urls.py sehingga launchpad mengenali distro ini sebagai BlankOn bukan ubuntu
