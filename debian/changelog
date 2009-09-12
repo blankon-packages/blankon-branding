@@ -1,3 +1,9 @@
+blankon-branding (1.0.1) ombilin; urgency=low
+
+  * Typo nanggar-branding-checkbox seharusnya blankon-branding-checkbox 
+
+ -- Akhmat Safrudin <akhmat.safrudin@gmail.com>  Sat, 12 Sep 2009 07:38:53 +0000
+
 blankon-branding (1.0.0) ombilin; urgency=low
 
   * rilis awal untuk blankon ombilin
