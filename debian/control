@@ -55,7 +55,7 @@ Architecture: all
 Depends: ${shlibs:Depends}, base-files
 Description: Rebranding paket base-file Ubuntu ke paket base-file BlankOn
 
-Package: nanggar-branding-checkbox
+Package: blankon-branding-checkbox
 Architecture: all
 Depends: ${shlibs:Depends}, checkbox
 Description: Rebranding paket checkbox Ubuntu ke paket checkbox BlankOn
