@@ -1,0 +1,11 @@
+#! /bin/sh
+set -e
+
+if [ -f /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp.divert ]; then
+  rm -f /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp
+  dpkg-divert --remove --rename /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp
+fi
+if [ -f /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp.divert ]; then
+  rm -f /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
+  dpkg-divert --remove --rename /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
+fi

@@ -1,0 +1,12 @@
+#! /bin/sh
+set -e
+
+case "$1" in
+  configure)
+  if [ -f /usr/share/inkscape/screens/about.svg ]; then
+    dpkg-divert --add --local --divert /usr/share/inkscape/screens/about.svg.divert --rename /usr/share/inkscape/screens/about.svg
+    cp -a /usr/share/inkscape/screens/about-blankon.svg /usr/share/inkscape/screens/about.svg
+  fi
+esac
+
+exit 0
