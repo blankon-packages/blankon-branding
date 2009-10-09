@@ -1,7 +1,0 @@
-#! /bin/sh
-
-set -e
-
-if [ -f /usr/share/apt/blankon-archive.gpg ]; then
-	rm -rf /usr/share/apt/blankon-archive.gpg
-fi

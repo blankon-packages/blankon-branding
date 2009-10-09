@@ -4,6 +4,7 @@ blankon-branding (1.0.2) ombilin; urgency=low
   * Update OOo Splash
   * Update GnuCash Splash
   * Update Inkscape About
+  * Hapus blankon-branding-apt
 
  -- Ahmad Haris <ahmadharis1982@gmail.com>  Fri, 09 Oct 2009 10:00:04 +0700
 
