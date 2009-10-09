@@ -1,3 +1,12 @@
+blankon-branding (1.0.2) ombilin; urgency=low
+
+  * Update Gimp splash
+  * Update OOo Splash
+  * Update GnuCash Splash
+  * Update Inkscape About
+
+ -- Ahmad Haris <ahmadharis1982@gmail.com>  Fri, 09 Oct 2009 10:00:04 +0700
+
 blankon-branding (1.0.1) ombilin; urgency=low
 
   * Typo nanggar-branding-checkbox seharusnya blankon-branding-checkbox 
