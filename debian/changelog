@@ -1,3 +1,11 @@
+blankon-branding (1.0.3) ombilin; urgency=low
+
+  * Update Gimp Splash
+  * Update OOo Splash Intro
+  * Nambah file sofficerc-blankon
+
+ -- Ahmad Haris <ahmadharis1982@gmail.com>  Fri, 08 Jan 2010 15:51:38 +0700
+
 blankon-branding (1.0.2) ombilin; urgency=low
 
   * Update Gimp Splash

@@ -1,0 +1,7 @@
+[Bootstrap]
+HideEula=1
+Logo=1
+ProgressBarColor=255,250,0
+ProgressFrameColor=202,25,0
+ProgressPosition=14,270
+ProgressSize=412,7
