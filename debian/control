@@ -1,7 +1,7 @@
 Source: blankon-branding
 Priority: optional
 Section: gnome
-Maintainer: BlankOn Developers <BlankOn-dev@googlegroups.com>
+Maintainer: BlankOn Developers <BlankOn-Dev@googlegroups.com>
 Standards-Version: 3.7.0
 Build-Depends: debhelper, cdbs, coreutils
 
