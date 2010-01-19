@@ -9,3 +9,7 @@ if [ -f /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp.divert ]; then
   rm -f /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
   dpkg-divert --remove --rename /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
 fi
+if [ -f /etc/openoffice/sofficerc.divert ]; then
+  rm -f /etc/openoffice/sofficerc
+  dpkg-divert --remove --rename /etc/openoffice/sofficerc
+fi

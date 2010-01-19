@@ -1,3 +1,10 @@
+blankon-branding (1.0.4) ombilin; urgency=low
+
+  * change blankon-branding-openoffice.postinst
+  * change blankon-branding-openoffice.postrm
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Tue, 19 Jan 2010 06:26:03 +0000
+
 blankon-branding (1.0.3) ombilin; urgency=low
 
   * Update Gimp Splash

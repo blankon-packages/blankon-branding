@@ -6,11 +6,15 @@ case "$1" in
   if [ -f /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp ]; then
     dpkg-divert --add --local --divert /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp.divert --rename /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp
     cp -a /usr/lib/openoffice/program/openintro_blankon_sun.bmp /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp
-    cp -a /etc/openoffice/sofficerc-blankon /etc/openoffice/sofficerc
+    
   fi
   if [ -f /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp ]; then
     dpkg-divert --add --local --divert /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp.divert --rename /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
     cp -a /usr/lib/openoffice/program/openabout_blankon_sun.bmp /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
+  fi
+  if [ -f /etc/openoffice/sofficerc ]; then
+    dpkg-divert --add --local --divert /etc/openoffice/sofficerc.divert --rename /etc/openoffice/sofficerc
+    cp -a /etc/openoffice/sofficerc-blankon /etc/openoffice/sofficerc
   fi
 esac
 
