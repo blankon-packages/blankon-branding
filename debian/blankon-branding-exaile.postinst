@@ -1,0 +1,12 @@
+#! /bin/sh
+set -e
+
+case "$1" in
+  configure)
+  if [ -f /usr/share/exaile/images/splash.png ]; then
+    dpkg-divert --add --local --divert /usr/share/exaile/images/splash.png.divert --rename /usr/share/exaile/images/splash.png
+    cp -a /usr/share/exaile/images/exaile-splash-blankon.png /usr/share/exaile/images/splash.png
+  fi
+esac
+
+exit 0

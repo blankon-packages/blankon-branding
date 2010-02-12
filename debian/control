@@ -40,6 +40,11 @@ Architecture: all
 Depends: ${shlibs:Depends}, gnucash
 Description: Rebranding paket GNUCash Ubuntu ke paket GNUCash BlankOn
 
+Package: blankon-branding-exaile
+Architecture: all
+Depends: ${shlibs:Depends}, exaile
+Description: Rebranding paket exaile Ubuntu ke paket exaile BlankOn
+
 Package: blankon-branding-network-manager-gnome
 Architecture: all
 Depends: ${shlibs:Depends}, network-manager-gnome
