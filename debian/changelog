@@ -1,3 +1,10 @@
+blankon-branding (1.2.1) ombilin; urgency=low
+
+  * Add pidgin branding
+  * change splash-exaile.png
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Tue, 02 Mar 2010 11:28:40 +0000
+
 blankon-branding (1.1.1) ombilin; urgency=low
 
   * Add exaile branding

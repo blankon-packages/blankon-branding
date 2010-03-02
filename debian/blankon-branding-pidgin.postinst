@@ -1,0 +1,12 @@
+#! /bin/sh
+set -e
+
+case "$1" in
+  configure)
+  if [ -f /usr/share/pixmaps/pidgin/logo.png ]; then
+    dpkg-divert --add --local --divert /usr/share/pixmaps/pidgin/logo.png.divert --rename /usr/share/pixmaps/pidgin/logo.png
+    cp -a /usr/share/pixmaps/pidgin/logo-blankon.png /usr/share/pixmaps/pidgin/logo.png
+  fi
+esac
+
+exit 0

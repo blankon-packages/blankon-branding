@@ -45,6 +45,11 @@ Architecture: all
 Depends: ${shlibs:Depends}, exaile
 Description: Rebranding paket exaile Ubuntu ke paket exaile BlankOn
 
+Package: blankon-branding-pidgin
+Architecture: all
+Depends: ${shlibs:Depends}, pidgin
+Description: Rebranding paket pidgin Ubuntu ke paket pidgin BlankOn
+
 Package: blankon-branding-network-manager-gnome
 Architecture: all
 Depends: ${shlibs:Depends}, network-manager-gnome
