@@ -3,14 +3,14 @@ set -e
 
 case "$1" in
   configure)
-  if [ -f /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp ]; then
-    dpkg-divert --add --local --divert /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp.divert --rename /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp
-    cp -a /usr/lib/openoffice/program/openintro_blankon_sun.bmp /usr/lib/openoffice/program/openintro_ubuntu_sun.bmp
+  if [ -f /usr/lib/openoffice/program/openintro_ubuntu_oracle.bmp ]; then
+    dpkg-divert --add --local --divert /usr/lib/openoffice/program/openintro_ubuntu_oracle.bmp.divert --rename /usr/lib/openoffice/program/openintro_ubuntu_oracle.bmp
+    cp -a /usr/lib/openoffice/program/openintro_blankon_oracle.bmp /usr/lib/openoffice/program/openintro_ubuntu_oracle.bmp
     
   fi
-  if [ -f /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp ]; then
-    dpkg-divert --add --local --divert /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp.divert --rename /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
-    cp -a /usr/lib/openoffice/program/openabout_blankon_sun.bmp /usr/lib/openoffice/program/openabout_ubuntu_sun.bmp
+  if [ -f /usr/lib/openoffice/program/openabout_ubuntu_oracle.bmp ]; then
+    dpkg-divert --add --local --divert /usr/lib/openoffice/program/openabout_ubuntu_oracle.bmp.divert --rename /usr/lib/openoffice/program/openabout_ubuntu_oracle.bmp
+    cp -a /usr/lib/openoffice/program/openabout_blankon_oracle.bmp /usr/lib/openoffice/program/openabout_ubuntu_oracle.bmp
   fi
   if [ -f /etc/openoffice/sofficerc ]; then
     dpkg-divert --add --local --divert /etc/openoffice/sofficerc.divert --rename /etc/openoffice/sofficerc
