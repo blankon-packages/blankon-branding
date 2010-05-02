@@ -1,3 +1,9 @@
+blankon-branding (1.2.5) ombilin; urgency=low
+
+  * change gimp & pidgin png 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sun, 02 May 2010 22:07:58 +0700
+
 blankon-branding (1.2.4) ombilin; urgency=low
 
   * update for openoffice sun to oracle .
