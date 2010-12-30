@@ -1,3 +1,9 @@
+blankon-branding (1.2.7) pattimura; urgency=low
+
+  * initial commit pattimura
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Thu, 30 Dec 2010 22:31:32 +0000
+
 blankon-branding (1.2.6) ombilin; urgency=low
 
   * Perbaikan gambar gimp png
