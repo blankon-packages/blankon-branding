@@ -1,3 +1,9 @@
+blankon-branding (1.2.8) pattimura; urgency=low
+
+  * Change Brand Pattimura Splash Gimp, Exaile, Libreoffice.
+
+ -- Adnan Kashogi <adnan@linuz.web.id>  Thu, 31 Mar 2011 22:16:44 +0700
+
 blankon-branding (1.2.7) pattimura; urgency=low
 
   * initial commit pattimura
