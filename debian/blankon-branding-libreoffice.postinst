@@ -1,0 +1,21 @@
+#! /bin/sh
+set -e
+
+case "$1" in
+  configure)
+  if [ -f /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp ]; then
+    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp.divert --rename /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp
+    cp -a /usr/lib/libreoffice/program/libreoffice-splash-blankon.bmp /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp
+    
+  fi
+  if [ -f /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp ]; then
+    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp.divert --rename /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp
+    cp -a /usr/lib/libreoffice/program/libreoffice-about-blankon.bmp /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp
+  fi
+  if [ -f /etc/libreoffice/sofficerc ]; then
+    dpkg-divert --add --local --divert /etc/libreoffice/sofficerc.divert --rename /etc/libreoffice/sofficerc
+    cp -a /etc/libreoffice/sofficerc-blankon /etc/libreoffice/sofficerc
+  fi
+esac
+
+exit 0

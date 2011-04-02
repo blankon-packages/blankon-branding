@@ -1,0 +1,15 @@
+#! /bin/sh
+set -e
+
+if [ -f /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp.divert ]; then
+  rm -f /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp
+  dpkg-divert --remove --rename /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp
+fi
+if [ -f /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp.divert ]; then
+  rm -f /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp
+  dpkg-divert --remove --rename /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp
+fi
+if [ -f /etc/libreoffice/sofficerc.divert ]; then
+  rm -f /etc/libreoffice/sofficerc
+  dpkg-divert --remove --rename /etc/libreoffice/sofficerc
+fi

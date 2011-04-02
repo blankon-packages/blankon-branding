@@ -10,10 +10,10 @@ Architecture: all
 Depends: ${shlibs:Depends}, gimp
 Description: Rebranding paket GIMP Ubuntu ke paket GIMP BlankOn
 
-Package: blankon-branding-openoffice
+Package: blankon-branding-libreoffice
 Architecture: all
-Depends: ${shlibs:Depends}, openoffice.org-core
-Description: Rebranding paket OpenOffice Ubuntu ke paket OpenOffice BlankOn
+Depends: ${shlibs:Depends}, libreoffice.org-core
+Description: Rebranding paket LibreOffice Ubuntu ke paket LibreOffice BlankOn
 
 Package: blankon-branding-inkscape
 Architecture: all
