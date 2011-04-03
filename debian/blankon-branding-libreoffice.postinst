@@ -3,14 +3,14 @@ set -e
 
 case "$1" in
   configure)
-  if [ -f /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp ]; then
-    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp.divert --rename /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp
-    cp -a /usr/lib/libreoffice/program/libreoffice-splash-blankon.bmp /usr/lib/libreoffice/program/openintro_ubuntu_oracle.bmp
+  if [ -f /usr/lib/libreoffice/program/intro.png ]; then
+    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/intro.png.divert --rename /usr/lib/libreoffice/program/intro.png
+    cp -a /usr/lib/libreoffice/program/splash-blankon.png /usr/lib/libreoffice/program/intro.png
     
   fi
-  if [ -f /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp ]; then
-    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp.divert --rename /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp
-    cp -a /usr/lib/libreoffice/program/libreoffice-about-blankon.bmp /usr/lib/libreoffice/program/openabout_ubuntu_oracle.bmp
+  if [ -f /usr/lib/libreoffice/program/about.png ]; then
+    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/about.png.divert --rename /usr/lib/libreoffice/program/about.png
+    cp -a /usr/lib/libreoffice/program/about-blankon.png /usr/lib/libreoffice/program/about.png
   fi
   if [ -f /etc/libreoffice/sofficerc ]; then
     dpkg-divert --add --local --divert /etc/libreoffice/sofficerc.divert --rename /etc/libreoffice/sofficerc
