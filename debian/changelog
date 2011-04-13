@@ -1,3 +1,9 @@
+blankon-branding (1.2.10-1) pattimura; urgency=low
+
+  * Update Splash Gimp & LibreOffice.
+
+ -- Adnan Kashogi <adnan@linuz.web.id>  Wed, 13 Apr 2011 21:03:33 +0700
+
 blankon-branding (1.2.10) pattimura; urgency=low
 
   * update image adn script libreoffice
