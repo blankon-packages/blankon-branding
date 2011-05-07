@@ -1,3 +1,6 @@
+libreoffice/backing_left-blankon.png /usr/lib/libreoffice/program/shell/
+libreoffice/backing_right-blankon.png /usr/lib/libreoffice/program/shell/
+libreoffice/backing_space-blankon.png /usr/lib/libreoffice/program/shell/
 libreoffice/splash-blankon.png /usr/lib/libreoffice/program/
 libreoffice/about-blankon.png /usr/lib/libreoffice/program/
 libreoffice/sofficerc-blankon /etc/libreoffice/
