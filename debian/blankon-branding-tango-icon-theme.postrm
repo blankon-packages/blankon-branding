@@ -3,5 +3,5 @@ set -e
 
 if [ -f /usr/share/icons/Tango/scalable/places/start-here.svg.divert ]; then
   rm -f /usr/share/icons/Tango/scalable/places/start-here.svg
-  dpkg-divert --local --remove --rename /usr/share/icons/Tango/scalable/places/start-here.svg
+  dpkg-divert --remove --rename /usr/share/icons/Tango/scalable/places/start-here.svg
 fi

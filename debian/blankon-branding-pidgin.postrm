@@ -3,5 +3,5 @@ set -e
 
 if [ -f /usr/share/pixmaps/pidgin/logo.png.divert ]; then
   rm -f /usr/share/pixmaps/pidgin/logo.png
-  dpkg-divert --local --remove --rename /usr/sharepixmaps/pidgin/logo.png
+  dpkg-divert --remove --rename /usr/sharepixmaps/pidgin/logo.png
 fi

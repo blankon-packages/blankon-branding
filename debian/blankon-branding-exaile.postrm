@@ -3,5 +3,5 @@ set -e
 
 if [ -f /usr/share/exaile/images/splash.png.divert ]; then
   rm -f /usr/share/exaile/images/splash.png
-  dpkg-divert --local --remove --rename /usr/share/exaile/images/splash.png
+  dpkg-divert --remove --rename /usr/share/exaile/images/splash.png
 fi

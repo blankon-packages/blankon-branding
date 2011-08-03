@@ -3,5 +3,5 @@ set -e
 
 if [ -f /usr/share/inkscape/screens/about.svg.divert ]; then
   rm -f /usr/share/inkscape/screens/about-blankon.svg
-  dpkg-divert --local --remove --rename /usr/share/inkscape/screens/about-blankon.svg
+  dpkg-divert --remove --rename /usr/share/inkscape/screens/about-blankon.svg
 fi
