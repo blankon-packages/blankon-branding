@@ -1,11 +1,11 @@
 #!/bin/sh
 set -e
 
-if [ -f /usr/share/checkbox/gtk/checkbox-gtk-head.png.divert ]; then
-  rm -f /usr/share/checkbox/gtk/checkbox-gtk-head.png
-  dpkg-divert --remove --rename /usr/share/checkbox/gtk/checkbox-gtk-head.png
+if [ -f /usr/share/checkbox/gtk/blankon.checkbox-gtk-head.png.divert ]; then
+  rm -f /usr/share/checkbox/gtk/blankon.checkbox-gtk-head.png
+  dpkg-divert --remove --rename /usr/share/checkbox/gtk/blankon.checkbox-gtk-head.png
 fi
-if [ -f /usr/share/checkbox/gtk/checkbox-gtk.glade.divert ]; then
-  rm -f /usr/share/checkbox/gtk/checkbox-gtk.glade
-  dpkg-divert --remove --rename /usr/share/checkbox/gtk/checkbox-gtk.glade
+if [ -f /usr/share/checkbox/gtk/blankon.checkbox-gtk.glade.divert ]; then
+  rm -f /usr/share/checkbox/gtk/blankon.checkbox-gtk.glade
+  dpkg-divert --remove --rename /usr/share/checkbox/gtk/blankon.checkbox-gtk.glade
 fi

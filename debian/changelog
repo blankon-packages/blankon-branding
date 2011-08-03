@@ -1,3 +1,9 @@
+blankon-branding (1.2.14) pattimura; urgency=low
+
+  * memperbaiki postinst dan postrm
+
+ -- kokabiel <kokabiel@ASUS-X42JE>  Wed, 03 Aug 2011 18:59:08 +0700
+
 blankon-branding (1.2.13) pattimura; urgency=low
 
   * mengganti gambar latar libreoffice

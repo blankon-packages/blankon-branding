@@ -3,13 +3,13 @@ set -e
 
 case "$1" in
   configure)
-  if [ -f /usr/share/checkbox/gtk/checkbox-gtk-head.png ]; then
-    dpkg-divert --add --local --divert /usr/share/checkbox/gtk/checkbox-gtk-head.png.divert --rename /usr/share/checkbox/gtk/checkbox-gtk-head.png
-    cp -a /usr/share/checkbox/gtk/blankon.checkbox-gtk-head.png /usr/share/checkbox/gtk/checkbox-gtk-head.png
+  if [ -f /usr/share/checkbox/gtk/blankon.checkbox-gtk-head.png ]; then
+    dpkg-divert --add --local --divert /usr/share/checkbox/gtk/blankon.checkbox-gtk-head.png.divert --rename /usr/share/checkbox/gtk/blankon.checkbox-gtk-head.png
+    cp -a /usr/share/checkbox/gtk/blankon.checkbox-gtk-head.png /usr/share/checkbox/gtk/blankon.checkbox-gtk-head.png
   fi
-  if [ -f /usr/share/checkbox/gtk/checkbox-gtk.glade ]; then
-    dpkg-divert --add --local --divert /usr/share/checkbox/gtk/checkbox-gtk.glade.divert --rename /usr/share/checkbox/gtk/checkbox-gtk.glade
-    cp -a /usr/share/checkbox/gtk/blankon.checkbox-gtk.glade /usr/share/checkbox/gtk/checkbox-gtk.glade
+  if [ -f /usr/share/checkbox/gtk/blankon.checkbox-gtk.glade ]; then
+    dpkg-divert --add --local --divert /usr/share/checkbox/gtk/checkbox-gtk.glade.divert --rename /usr/share/checkbox/gtk/blankon.checkbox-gtk.glade
+    cp -a /usr/share/checkbox/gtk/blankon.checkbox-gtk.glade /usr/share/checkbox/gtk/blankon.checkbox-gtk.glade
   fi
 esac
 
