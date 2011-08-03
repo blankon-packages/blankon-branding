@@ -4,16 +4,16 @@ set -e
 case "$1" in
   configure)
   if [ -f /usr/lib/libreoffice/program/shell/backing_left.png ]; then
-    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/shell/backing_left.png.divert --rename /usr/lib/libreoffice/program/shell/backing_left-blankon.png
-    cp -a /usr/lib/libreoffice/program/shell/backing_left-blankon.png /usr/lib/libreoffice/program/shell/backing_left-blankon.png
+    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/shell/backing_left.png.divert --rename /usr/lib/libreoffice/program/shell/backing_left.png
+    cp -a /usr/lib/libreoffice/program/shell/backing_left-blankon.png /usr/lib/libreoffice/program/shell/backing_left.png
   fi
   if [ -f /usr/lib/libreoffice/program/shell/backing_right.png ]; then
-    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/shell/backing_right.png.divert --rename /usr/lib/libreoffice/program/shell/backing_right-blankon.png
-    cp -a /usr/lib/libreoffice/program/shell/backing_right-blankon.png /usr/lib/libreoffice/program/shell/backing_right-blankon.png
+    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/shell/backing_right.png.divert --rename /usr/lib/libreoffice/program/shell/backing_right.png
+    cp -a /usr/lib/libreoffice/program/shell/backing_right-blankon.png /usr/lib/libreoffice/program/shell/backing_right.png
   fi
   if [ -f /usr/lib/libreoffice/program/shell/backing_space.png ]; then
-    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/shell/backing_space.png.divert --rename /usr/lib/libreoffice/program/shell/backing_space-blankon.png
-    cp -a /usr/lib/libreoffice/program/shell/backing_space-blankon.png /usr/lib/libreoffice/program/shell/backing_space-blankon.png
+    dpkg-divert --add --local --divert /usr/lib/libreoffice/program/shell/backing_space.png.divert --rename /usr/lib/libreoffice/program/shell/backing_space.png
+    cp -a /usr/lib/libreoffice/program/shell/backing_space-blankon.png /usr/lib/libreoffice/program/shell/backing_space.png
   fi
   if [ -f /usr/lib/libreoffice/program/intro.png ]; then
     dpkg-divert --add --local --divert /usr/lib/libreoffice/program/intro.png.divert --rename /usr/lib/libreoffice/program/intro.png

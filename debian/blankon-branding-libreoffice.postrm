@@ -2,15 +2,15 @@
 set -e
 
 if [ -f /usr/lib/libreoffice/program/shell/backing_left.png.divert ]; then
-  rm -f /usr/lib/libreoffice/program/shell/backing_left-blankon.png
-  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/shell/backing_left-blankon.png
+  rm -f /usr/lib/libreoffice/program/shell/backing_left.png
+  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/shell/backing_left.png
 fi
 if [ -f /usr/lib/libreoffice/program/shell/backing_right.png.divert ]; then
-  rm -f /usr/lib/libreoffice/program/shell/backing_right-blankon.png
-  dpkg-divert --remove --rename /usr/lib/libreoffice/program/shell/backing_right-blankon.png
+  rm -f /usr/lib/libreoffice/program/shell/backing_right.png
+  dpkg-divert --remove --rename /usr/lib/libreoffice/program/shell/backing_right.png
 fi
 if [ -f /usr/lib/libreoffice/program/shell/backing_space.png.divert ]; then
-  rm -f /usr/lib/libreoffice/program/shell/backing_space-blankon.png
+  rm -f /usr/lib/libreoffice/program/shell/backing_space.png
   dpkg-divert --remove --rename /usr/lib/libreoffice/program/shell/backing_space.png
 fi
 if [ -f /usr/lib/libreoffice/program/intro.png.divert ]; then
