@@ -7,5 +7,5 @@ if [ -f /usr/share/system-config-printer/testpage-a4.ps.divert ]; then
 fi
 if [ -f /usr/share/system-config-printer/testpage-letter.ps.divert ]; then
   rm -f /usr/share/system-config-printer/testpage-letter.ps
-  dpkg-divert --remove --rename /usr/share/system-config-printer/testpage-letter.ps
+  dpkg-divert --local --remove --rename /usr/share/system-config-printer/testpage-letter.ps
 fi

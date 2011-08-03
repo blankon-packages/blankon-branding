@@ -3,5 +3,5 @@ set -e
 
 if [ -f /usr/share/launchpad-integration/launchpadintegration/urls.py.divert ]; then
   rm -f /usr/share/launchpad-integration/launchpadintegration/urls.py
-  dpkg-divert --remove --rename /usr/share/launchpad-integration/launchpadintegration/urls.py
+  dpkg-divert --local --remove --rename /usr/share/launchpad-integration/launchpadintegration/urls.py
 fi

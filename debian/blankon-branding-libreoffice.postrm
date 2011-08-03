@@ -3,25 +3,25 @@ set -e
 
 if [ -f /usr/lib/libreoffice/program/shell/backing_left.png.divert ]; then
   rm -f /usr/lib/libreoffice/program/shell/backing_left-blankon.png
-  dpkg-divert --remove --rename /usr/lib/libreoffice/program/shell/backing_left-blankon.png
+  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/shell/backing_left-blankon.png
 fi
 if [ -f /usr/lib/libreoffice/program/shell/backing_right.png.divert ]; then
   rm -f /usr/lib/libreoffice/program/shell/backing_right-blankon.png
-  dpkg-divert --remove --rename /usr/lib/libreoffice/program/shell/backing_right-blankon.png
+  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/shell/backing_right-blankon.png
 fi
 if [ -f /usr/lib/libreoffice/program/shell/backing_space.png.divert ]; then
   rm -f /usr/lib/libreoffice/program/shell/backing_space-blankon.png
-  dpkg-divert --remove --rename /usr/lib/libreoffice/program/shell/backing_space.png
+  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/shell/backing_space.png
 fi
 if [ -f /usr/lib/libreoffice/program/intro.png.divert ]; then
   rm -f /usr/lib/libreoffice/program/intro.png
-  dpkg-divert --remove --rename /usr/lib/libreoffice/program/intro.png
+  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/intro.png
 fi
 if [ -f /usr/lib/libreoffice/program/about.png.divert ]; then
   rm -f /usr/lib/libreoffice/program/about.png
-  dpkg-divert --remove --rename /usr/lib/libreoffice/program/about.png
+  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/about.png
 fi
 if [ -f /etc/libreoffice/sofficerc.divert ]; then
   rm -f /etc/libreoffice/sofficerc
-  dpkg-divert --remove --rename /etc/libreoffice/sofficerc
+  dpkg-divert --local --remove --rename /etc/libreoffice/sofficerc
 fi
