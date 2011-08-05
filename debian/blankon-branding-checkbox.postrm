@@ -3,9 +3,9 @@ set -e
 
 if [ -f /usr/share/checkbox/gtk/checkbox-gtk-head.png.divert ]; then
   rm -f /usr/share/checkbox/gtk/checkbox-gtk-head.png
-  dpkg-divert --remove --rename /usr/share/checkbox/gtk/checkbox-gtk-head.png
+  dpkg-divert --local --remove --rename /usr/share/checkbox/gtk/checkbox-gtk-head.png
 fi
 if [ -f /usr/share/checkbox/gtk/checkbox-gtk.glade.divert ]; then
   rm -f /usr/share/checkbox/gtk/checkbox-gtk.glade
-  dpkg-divert --remove --rename /usr/share/checkbox/gtk/checkbox-gtk.glade
+  dpkg-divert --local --remove --rename /usr/share/checkbox/gtk/checkbox-gtk.glade
 fi

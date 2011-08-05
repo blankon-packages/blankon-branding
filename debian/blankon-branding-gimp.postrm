@@ -3,5 +3,5 @@ set -e
 
 if [ -f /usr/share/gimp/2.0/images/gimp-splash.png.divert ]; then
   rm -f /usr/share/gimp/2.0/images/gimp-splash.png
-  dpkg-divert --remove --rename /usr/share/gimp/2.0/images/gimp-splash.png
+  dpkg-divert --local --remove --rename /usr/share/gimp/2.0/images/gimp-splash.png
 fi
