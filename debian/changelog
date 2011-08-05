@@ -1,3 +1,9 @@
+blankon-branding (1.2.19) pattimura; urgency=low
+
+  * Change configure patch exaile* 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Fri, 05 Aug 2011 16:09:32 +0700
+
 blankon-branding (1.2.18) pattimura; urgency=low
 
   * add --local at postrm
