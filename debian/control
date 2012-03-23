@@ -71,3 +71,15 @@ Architecture: all
 Depends: ${shlibs:Depends}, launchpad-integration
 Description: Rebranding paket launchpad-integration Ubuntu ke paket launchpad-ingration BlankOn
  Menambahkan berkas urls.py sehingga launchpad mengenali distro ini sebagai BlankOn bukan ubuntu
+
+Package: blankon-branding-gnome-control-center
+Architecture: all
+Depends: ${shlibs:Depends}, gnome-control-center
+Description: Rebranding paket gnome ui ke paket BlankOn ui
+ Mengganti image di gnome control center ui
+
+Package: blankon-branding-cinnamon
+Architecture: all
+Depends: ${shlibs:Depends}, cinnamon
+Description: Rebranding file menu.js cinnamon, integrated ke menu.js BlankOn
+ Mengganti image di cinnamon theme menu logo default ke theme menu logo OI BlankOn
