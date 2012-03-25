@@ -5,7 +5,7 @@ case "$1" in
   configure)
   if [ -f /etc/lightdm/lightdm-gtk-greeter.conf ]; then
     dpkg-divert --add --local --divert /etc/lightdm/lightdm-gtk-greeter.conf.divert --rename /etc/lightdm/lightdm-gtk-greeter.conf
-    cp -a /etc/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
+    cp -a /etc/lightdm/lightdm-gtk-greeter-blankon.conf /etc/lightdm/lightdm-gtk-greeter.conf
   fi
 esac
 

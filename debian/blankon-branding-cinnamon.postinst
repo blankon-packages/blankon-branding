@@ -5,11 +5,11 @@ case "$1" in
   configure)
   if [ -f /usr/share/cinnamon/theme/menu.png ]; then
     dpkg-divert --add --local --divert /usr/share/cinnamon/theme/menu.png.divert --rename /usr/share/cinnamon/theme/menu.png
-    cp -a /usr/share/cinnamon/theme/menu.png /usr/share/cinnamon/theme/menu.png
+    cp -a /usr/share/cinnamon/theme/menu-blankon.png /usr/share/cinnamon/theme/menu.png
   fi
   if [ -f /usr/share/cinnamon/js/ui/menu.js ]; then
     dpkg-divert --add --local --divert /usr/share/cinnamon/js/ui/menu.js.divert --rename /usr/share/cinnamon/js/ui/menu.js
-    cp -a /usr/share/cinnamon/js/ui/menu.js /usr/share/cinnamon/js/ui/menu.js
+    cp -a /usr/share/cinnamon/js/ui/menu-blankon.js /usr/share/cinnamon/js/ui/menu.js
   fi
 esac
 
