@@ -83,3 +83,9 @@ Architecture: all
 Depends: ${shlibs:Depends}, cinnamon
 Description: Rebranding file menu.js cinnamon, integrated ke menu.js BlankOn
  Mengganti image di cinnamon theme menu logo default ke theme menu logo OI BlankOn
+
+Package: blankon-branding-lightdm
+Architecture: all
+Depends: ${shlibs:Depends}, lightdm
+Description: Rebranding file lightdm-gtk-greeter.conf integrated Background BlankOn lightdm
+ Mengganti link background lightdm
