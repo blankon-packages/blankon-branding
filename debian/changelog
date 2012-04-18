@@ -1,3 +1,9 @@
+blankon-branding (1.2.23) rote; urgency=low
+
+  * adding lightdm/greeter-blankon.ui
+
+ -- Pendekar BlankOn <mijortsa@localhost>  Wed, 18 Apr 2012 07:26:12 +0700
+
 blankon-branding (1.2.22) rote; urgency=low
 
   * adding blankon-branding-lightdm

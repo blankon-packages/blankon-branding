@@ -7,6 +7,10 @@ case "$1" in
     dpkg-divert --add --local --divert /etc/lightdm/lightdm-gtk-greeter.conf.divert --rename /etc/lightdm/lightdm-gtk-greeter.conf
     cp -a /etc/lightdm/lightdm-gtk-greeter-blankon.conf /etc/lightdm/lightdm-gtk-greeter.conf
   fi
+  if [ -f /usr/share/lightdm-gtk-greeter/greeter.ui ]; then
+    dpkg-divert --add --local --divert /usr/share/lightdm-gtk-greeter/greeter.ui.divert --rename /usr/share/lightdm-gtk-greeter/greeter.ui
+    cp -a /usr/share/lightdm-gtk-greeter/greeter-blankon.ui /usr/share/lightdm-gtk-greeter/greeter.ui
+  fi
 esac
 
 exit 0
