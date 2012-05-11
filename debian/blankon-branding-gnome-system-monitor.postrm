@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+
+if [ -f /usr/share/pixmaps/gnome-system-monitor/side.png.divert ]; then
+  rm -f /usr/share/pixmaps/gnome-system-monitor/side.png
+  dpkg-divert --local --remove --rename /usr/share/pixmaps/gnome-system-monitor/side.png
+fi

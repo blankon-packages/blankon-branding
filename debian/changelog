@@ -1,3 +1,9 @@
+blankon-branding (1.2.25) rote; urgency=low
+
+  * branding gnome-system-monitor
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 11 May 2012 15:28:42 +0700
+
 blankon-branding (1.2.24) rote; urgency=low
 
   * replace lightdm/bg.png 

@@ -89,3 +89,9 @@ Architecture: all
 Depends: ${shlibs:Depends}, lightdm
 Description: Rebranding file lightdm-gtk-greeter.conf integrated Background BlankOn lightdm
  Mengganti link background lightdm
+
+Package: gnome-system-monitor
+Architecture: all
+Depends: ${shlibs:Depends}, gnome-system-monitor
+Description: Rebranding file gnome-system-monitor integrated logo BlankOn
+ Mengganti link logo gnome system monitor
