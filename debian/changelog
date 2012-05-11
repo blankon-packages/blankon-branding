@@ -1,3 +1,9 @@
+blankon-branding (1.2.27) rote; urgency=low
+
+  * rebuild system monitor & bluetooth
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 11 May 2012 19:07:38 +0700
+
 blankon-branding (1.2.26) rote; urgency=low
 
   * blankon-branding-gnome-bluetooth
