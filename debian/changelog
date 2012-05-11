@@ -1,8 +1,13 @@
+blankon-branding (1.2.26) rote; urgency=low
+
+  * blankon-branding-gnome-bluetooth
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 11 May 2012 17:37:40 +0700
+
 blankon-branding (1.2.25) rote; urgency=low
 
   * branding gnome-system-monitor
-  * branding gnome-bluetooth
-
+  
  -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 11 May 2012 15:28:42 +0700
 
 blankon-branding (1.2.24) rote; urgency=low
