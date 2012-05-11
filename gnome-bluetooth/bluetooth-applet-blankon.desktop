@@ -1,0 +1,12 @@
+[Desktop Entry]
+_Name=Bluetooth Manager
+_Comment=Bluetooth Manager applet
+Icon=bluetooth
+Exec=bluetooth-applet
+Terminal=false
+Type=Application
+OnlyShowIn=GNOME;XFCE;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-bluetooth
+X-GNOME-Bugzilla-Component=applet
+X-GNOME-Bugzilla-Version=@VERSION@

@@ -1,0 +1,7 @@
+#! /bin/sh
+set -e
+
+if [ -f /etc/xdg/autostart/bluetooth-applet.desktop.divert ]; then
+  rm -f /etc/xdg/autostart/bluetooth-applet.desktop
+  dpkg-divert --local --remove --rename /etc/xdg/autostart/bluetooth-applet.desktop
+fi

@@ -95,3 +95,9 @@ Architecture: all
 Depends: ${shlibs:Depends}, gnome-system-monitor
 Description: Rebranding file gnome-system-monitor integrated logo BlankOn
  Mengganti link logo gnome system monitor
+
+Package: blankon-branding-gnome-bluetooth
+Architecture: all
+Depends: ${shlibs:Depends}, gnome-bluetooth
+Description: Rebranding file gnome-bluetooth integrated BlankOn
+ Mengganti link gnome-bluetooth
