@@ -4,13 +4,16 @@ set -e
 case "$1" in
   configure)
   if [ -f /usr/share/system-config-printer/testpage-a4.ps ]; then
-    dpkg-divert --add --local --divert /usr/share/system-config-printer/testpage-a4.ps.divert --rename /usr/share/system-config-printer/testpage-a4.ps
-    cp -a /usr/share/system-config-printer/testpage-blankon-a4.ps /usr/share/system-config-printer/testpage-a4.ps
+    dpkg-divert --add --local --divert /usr/share/cups/data/default-testpage.pdf.divert --rename /usr/share/cups/data/default-testpage.pdf
+    cp -a /usr/share/cups/data/default-testpage-blankon.pdf /usr/share/cups/data/default-testpage.pdf
   fi
   if [ -f /usr/share/system-config-printer/testpage-letter.ps ]; then
-    dpkg-divert --add --local --divert /usr/share/system-config-printer/testpage-letter.ps.divert --rename /usr/share/system-config-printer/testpage-letter.ps
-    cp -a /usr/share/system-config-printer/testpage-blankon-letter.ps /usr/share/system-config-printer/testpage-letter.ps
+    dpkg-divert --add --local --divert /usr/share/cups/data/default-testpage-letter.pdf.divert --rename /usr/share/cups/data/default-testpage-letter.pdf
+    cp -a /usr/share/cups/data/default-testpage-blankon-letter.pdf /usr/share/cups/data/default-testpage-letter.pdf
   fi
 esac
 
 exit 0
+
+
+
