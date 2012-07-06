@@ -32,7 +32,7 @@ Description: Rebranding paket tangerine-icon-theme Ubuntu ke paket tangerine-ico
 
 Package: blankon-branding-system-config-printer
 Architecture: all
-Depends: ${shlibs:Depends}, system-config-printer-gnome
+Depends: ${shlibs:Depends}, system-config-printer, cups
 Description: Rebranding paket system-config-printer-gnome Ubuntu ke system-config-printer-gnome-blankon
 
 Package: blankon-branding-gnucash

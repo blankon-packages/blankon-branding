@@ -1,3 +1,9 @@
+blankon-branding (1.2.28.2) rote; urgency=low
+
+  *control cups 
+
+ -- Muhammad Abdul Majid <tuyul.det@gmail.com>  Fri, 06 Jul 2012 16:37:05 +0700
+
 blankon-branding (1.2.28.1) rote; urgency=low
 
   *delete ~ 
