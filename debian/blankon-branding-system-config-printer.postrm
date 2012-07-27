@@ -5,7 +5,4 @@ if [ -f /usr/share/cups/data/default-testpage.pdf.divert ]; then
   rm -f /usr/share/cups/data/default-testpage.pdf
   dpkg-divert --local --remove --rename /usr/share/cups/data/default-testpage.pdf
 fi
-if [ -f /usr/share/cups/data/default-testpage-letter.pdf.divert ]; then
-  rm -f /usr/share/cups/data/default-testpage.pdf
-  dpkg-divert --local --remove --rename /usr/share/cups/data/default-testpage-letter.pdf
-fi
+

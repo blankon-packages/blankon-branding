@@ -3,13 +3,9 @@ set -e
 
 case "$1" in
   configure)
-  if [ -f /usr/share/system-config-printer/testpage-a4.ps ]; then
+  if [ -f /usr/share/cups/data/default-testpage.pdf ]; then
     dpkg-divert --add --local --divert /usr/share/cups/data/default-testpage.pdf.divert --rename /usr/share/cups/data/default-testpage.pdf
     cp -a /usr/share/cups/data/default-testpage-blankon.pdf /usr/share/cups/data/default-testpage.pdf
-  fi
-  if [ -f /usr/share/system-config-printer/testpage-letter.ps ]; then
-    dpkg-divert --add --local --divert /usr/share/cups/data/default-testpage-letter.pdf.divert --rename /usr/share/cups/data/default-testpage-letter.pdf
-    cp -a /usr/share/cups/data/default-testpage-blankon-letter.pdf /usr/share/cups/data/default-testpage-letter.pdf
   fi
 esac
 

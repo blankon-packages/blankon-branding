@@ -1,3 +1,9 @@
+blankon-branding (1.2.29) rote; urgency=low
+
+  * Fix system-confog-printer
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Fri, 27 Jul 2012 21:45:24 +0700
+
 blankon-branding (1.2.28.2) rote; urgency=low
 
   *control cups 
