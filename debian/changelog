@@ -1,3 +1,9 @@
+blankon-branding (1.2.31) rote; urgency=low
+
+  * remove cinnamon branding
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 03 Aug 2012 19:12:02 +0700
+
 blankon-branding (1.2.30) rote; urgency=low
 
   * New Logo BlankOn.
