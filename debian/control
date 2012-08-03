@@ -78,12 +78,6 @@ Depends: ${shlibs:Depends}, gnome-control-center
 Description: Rebranding paket gnome ui ke paket BlankOn ui
  Mengganti image di gnome control center ui
 
-Package: blankon-branding-cinnamon
-Architecture: all
-Depends: ${shlibs:Depends}, cinnamon
-Description: Rebranding file menu.js cinnamon, integrated ke menu.js BlankOn
- Mengganti image di cinnamon theme menu logo default ke theme menu logo OI BlankOn
-
 Package: blankon-branding-lightdm
 Architecture: all
 Depends: ${shlibs:Depends}, lightdm

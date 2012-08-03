@@ -1,3 +1,9 @@
+blankon-branding (1.2.30) rote; urgency=low
+
+  * New Logo BlankOn.
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 03 Aug 2012 06:51:20 +0700
+
 blankon-branding (1.2.29) rote; urgency=low
 
   * Fix system-confog-printer
