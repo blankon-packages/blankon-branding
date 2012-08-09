@@ -1,3 +1,9 @@
+blankon-branding (1.2.33) rote; urgency=low
+
+  * added branding gnucash and inkscape svg 
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 10 Aug 2012 05:21:49 +0700
+
 blankon-branding (1.2.32) rote; urgency=low
 
   * Added Branding Gimp, Inkscape.
