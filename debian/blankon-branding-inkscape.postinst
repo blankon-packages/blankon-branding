@@ -5,7 +5,7 @@ case "$1" in
   configure)
   if [ -f /usr/share/inkscape/screens/about-blankon.svg ]; then
     dpkg-divert --add --local --divert /usr/share/inkscape/screens/about.svg.divert --rename /usr/share/inkscape/screens/about-blankon.svg
-    cp -a /usr/share/inkscape/screens/about-blankon.png /usr/share/inkscape/screens/about-blankon.svg
+    cp -a /usr/share/inkscape/screens/about-blankon.svg /usr/share/inkscape/screens/about-blankon.svg
   fi
 esac
 

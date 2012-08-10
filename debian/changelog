@@ -1,3 +1,9 @@
+blankon-branding (1.2.34) rote; urgency=low
+
+  * Fix inskcape postinst.
+  
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Fri, 10 Aug 2012 14:45:27 +0700
+
 blankon-branding (1.2.33) rote; urgency=low
 
   * added branding gnucash and inkscape svg 
