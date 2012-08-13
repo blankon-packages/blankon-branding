@@ -1,3 +1,9 @@
+blankon-branding (1.2.36) rote; urgency=low
+
+  * about inkscape by pingsut
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Mon, 13 Aug 2012 20:00:40 +0700
+
 blankon-branding (1.2.35) rote; urgency=low
 
   * Fix inskcape postinst & postrm.
