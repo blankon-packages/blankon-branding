@@ -95,3 +95,9 @@ Architecture: all
 Depends: ${shlibs:Depends}, gnome-bluetooth
 Description: Rebranding file gnome-bluetooth integrated BlankOn
  Mengganti link gnome-bluetooth
+
+Package: blankon-branding-sajadah-wallpapers
+Architecture: all
+Depends: ${shlibs:Depends}, blankon-sajadah-wallpapers
+Description: Rebranding file xml
+ Mengganti file xml

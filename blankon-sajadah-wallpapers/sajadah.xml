@@ -1,0 +1,78 @@
+<background>
+  <starttime>
+    <year>2011</year>
+    <month>11</month>
+    <day>24</day>
+    <hour>4</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+  
+<!-- This animation will start at 4 AM. -->
+
+<static>
+<duration>10795.0</duration>
+<file>/usr/share/backgrounds/sajadah-dinihari.png</file>
+</static>
+
+<transition type="overlay">
+<duration>5.0</duration>
+<from>/usr/share/backgrounds/sajadah-dinihari.png</from>
+<to>/usr/share/backgrounds/sajadah-pagi.png</to>
+</transition>
+
+<static>
+<duration>14395.0</duration>
+<file>/usr/share/backgrounds/sajadah-pagi.png</file>
+</static>
+
+<transition type="overlay">
+<duration>5.0</duration>
+<from>/usr/share/backgrounds/sajadah-pagi.png</from>
+<to>/usr/share/backgrounds/sajadah-siang.png</to>
+</transition>
+
+<static>
+<duration>14395.0</duration>
+<file>/usr/share/backgrounds/sajadah-siang.png</file>
+</static>
+
+<transition type="overlay">
+<duration>5.0</duration>
+<from>/usr/share/backgrounds/sajadah-siang.png</from>
+<to>//usr/share/backgrounds/sajadah-sore.png</to>
+</transition>
+
+<static>
+<duration>14395.0</duration>
+<file>/usr/share/backgrounds/sajadah-sore.png</file>
+</static>
+
+<transition type="overlay">
+<duration>5.0</duration>
+<from>/usr/share/backgrounds/sajadah-sore.png</from>
+<to>//usr/share/backgrounds/sajadah-malam.png</to>
+</transition>
+
+<static>
+<duration>14395.0</duration>
+<file>/usr/share/backgrounds/sajadah-malam.png</file>
+</static>
+
+<transition type="overlay">
+<duration>5.0</duration>
+<from>/usr/share/backgrounds/sajadah-malam.png</from>
+<to>//usr/share/backgrounds/sajadah-dinihari.png</to>
+</transition>
+
+<static>
+<duration>17995.0</duration>
+<file>/usr/share/backgrounds/sajadah-dinihari.png</file>
+</static>
+
+<transition type="overlay">
+<duration>5.0</duration>
+<from>/usr/share/backgrounds/sajadah-dinihari.png</from>
+<to>//usr/share/backgrounds/sajadah-dinihari.png</to>
+</transition>
+</background>
