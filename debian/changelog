@@ -1,3 +1,9 @@
+blankon-branding (1.2.38) rote-updates; urgency=low
+
+  * remove blankon-branding-sajadah-wallpapers
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 13 Sep 2012 19:15:01 +0700
+
 blankon-branding (1.2.37) rote-updates; urgency=low
 
   * added blankon-branding-sajadah-wallpapers

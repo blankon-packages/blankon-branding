@@ -1,7 +1,0 @@
-#! /bin/sh
-set -e
-
-if [ -f /usr/share/backgrounds/contex/rote.xml.divert ]; then
-  rm -f /usr/share/backgrounds/contex/rote.xml
-  dpkg-divert --local --remove --rename /usr/share/backgrounds/contex/rote.xml
-fi
