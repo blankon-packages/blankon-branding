@@ -1,3 +1,10 @@
+blankon-branding (1.2.39) rote-updates; urgency=low
+
+  * remove cinnamon branding
+  * added New Logo Gnome-control-center
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Mon, 26 Nov 2012 00:52:28 +0700
+
 blankon-branding (1.2.38) rote-updates; urgency=low
 
   * remove blankon-branding-sajadah-wallpapers
