@@ -1,3 +1,10 @@
+blankon-branding (1.2.40) rote-updates; urgency=low
+
+  * changes Ubuntu initial to Debian
+  * remove tangerin icon, tango icon, basefile nanggar, 
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Mon, 26 Nov 2012 18:26:50 +0700
+
 blankon-branding (1.2.39) rote-updates; urgency=low
 
   * remove cinnamon branding

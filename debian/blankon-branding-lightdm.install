@@ -1,3 +1,2 @@
-lightdm/bg.png /usr/share/lightdm-gtk-greeter/
 lightdm/lightdm-gtk-greeter-blankon.conf /etc/lightdm/
 lightdm/greeter-blankon.ui /usr/share/lightdm-gtk-greeter/

@@ -8,69 +8,54 @@ Build-Depends: debhelper, cdbs, coreutils
 Package: blankon-branding-gimp
 Architecture: all
 Depends: ${shlibs:Depends}, gimp
-Description: Rebranding paket GIMP Ubuntu ke paket GIMP BlankOn
+Description: Rebranding paket GIMP Debian ke paket GIMP BlankOn
 
 Package: blankon-branding-libreoffice
 Architecture: all
 Depends: ${shlibs:Depends}, libreoffice-core
-Description: Rebranding paket LibreOffice Ubuntu ke paket LibreOffice BlankOn
+Description: Rebranding paket LibreOffice Debian ke paket LibreOffice BlankOn
 
 Package: blankon-branding-inkscape
 Architecture: all
 Depends: ${shlibs:Depends}, inkscape
-Description: Rebranding paket Inkscape Ubuntu ke paket Inkscape BlankOn
-
-Package: blankon-branding-tango-icon-theme
-Architecture: all
-Depends: ${shlibs:Depends}, tango-icon-theme
-Description: Rebranding paket tango-icon-theme Ubuntu ke paket tango icontheme BlankOn
-
-Package: blankon-branding-tangerine-icon-theme
-Architecture: all
-Depends: ${shlibs:Depends}, tangerine-icon-theme
-Description: Rebranding paket tangerine-icon-theme Ubuntu ke paket tangerine-icon-theme BlankOn
+Description: Rebranding paket Inkscape Debian ke paket Inkscape BlankOn
 
 Package: blankon-branding-system-config-printer
 Architecture: all
 Depends: ${shlibs:Depends}, system-config-printer, cups
-Description: Rebranding paket system-config-printer-gnome Ubuntu ke system-config-printer-gnome-blankon
+Description: Rebranding paket system-config-printer-gnome Debian ke system-config-printer-gnome-blankon
 
 Package: blankon-branding-gnucash
 Architecture: all
 Depends: ${shlibs:Depends}, gnucash
-Description: Rebranding paket GNUCash Ubuntu ke paket GNUCash BlankOn
+Description: Rebranding paket GNUCash Debian ke paket GNUCash BlankOn
 
 Package: blankon-branding-exaile
 Architecture: all
 Depends: ${shlibs:Depends}, exaile
-Description: Rebranding paket exaile Ubuntu ke paket exaile BlankOn
+Description: Rebranding paket exaile Debian ke paket exaile BlankOn
 
 Package: blankon-branding-pidgin
 Architecture: all
 Depends: ${shlibs:Depends}, pidgin
-Description: Rebranding paket pidgin Ubuntu ke paket pidgin BlankOn
+Description: Rebranding paket pidgin Debian ke paket pidgin BlankOn
 
 Package: blankon-branding-network-manager-gnome
 Architecture: all
 Depends: ${shlibs:Depends}, network-manager-gnome
 Description: Add LXDE into nm-applet.desktop
 
-Package: blankon-branding-base-files
-Architecture: all
-Depends: ${shlibs:Depends}, base-files
-Description: Rebranding paket base-file Ubuntu ke paket base-file BlankOn
-
 Package: blankon-branding-checkbox
 Architecture: all
 Depends: ${shlibs:Depends}, checkbox
-Description: Rebranding paket checkbox Ubuntu ke paket checkbox BlankOn
+Description: Rebranding paket checkbox Debian ke paket checkbox BlankOn
  Mengganti image di hardware test
 
 Package: blankon-branding-launchpad-integration
 Architecture: all
 Depends: ${shlibs:Depends}, launchpad-integration
 Description: Rebranding paket launchpad-integration Ubuntu ke paket launchpad-ingration BlankOn
- Menambahkan berkas urls.py sehingga launchpad mengenali distro ini sebagai BlankOn bukan ubuntu
+ Menambahkan berkas urls.py sehingga launchpad mengenali distro ini sebagai BlankOn bukan Ubuntu
 
 Package: blankon-branding-gnome-control-center
 Architecture: all
@@ -78,17 +63,17 @@ Depends: ${shlibs:Depends}, gnome-control-center
 Description: Rebranding paket gnome ui ke paket BlankOn ui
  Mengganti image di gnome control center ui
 
-Package: blankon-branding-lightdm
-Architecture: all
-Depends: ${shlibs:Depends}, lightdm
-Description: Rebranding file lightdm-gtk-greeter.conf integrated Background BlankOn lightdm
- Mengganti link background lightdm
-
 Package: blankon-branding-gnome-system-monitor
 Architecture: all
 Depends: ${shlibs:Depends}, gnome-system-monitor
 Description: Rebranding file gnome-system-monitor integrated logo BlankOn
  Mengganti link logo gnome system monitor
+
+Package: blankon-branding-lightdm
+Architecture: all
+Depends: ${shlibs:Depends}, lightdm
+Description: Rebranding file lightdm-gtk-greeter.conf integrated Background BlankOn lightdm
+ Mengganti link background lightdm
 
 Package: blankon-branding-gnome-bluetooth
 Architecture: all
