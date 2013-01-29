@@ -1,7 +1,0 @@
-#! /bin/sh
-set -e
-
-if [ -f /usr/share/exaile/data/images/splash.png.divert ]; then
-  rm -f /usr/share/exaile/data/images/splash.png
-  dpkg-divert --local --remove --rename /usr/share/exaile/data/images/splash.png
-fi

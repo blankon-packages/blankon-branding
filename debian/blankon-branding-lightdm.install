@@ -1,2 +1,0 @@
-lightdm/lightdm-gtk-greeter-blankon.conf /etc/lightdm/
-lightdm/greeter-blankon.ui /usr/share/lightdm-gtk-greeter/

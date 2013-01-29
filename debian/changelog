@@ -1,3 +1,9 @@
+blankon-branding (1.2.43) suroboyo; urgency=low
+
+  * remove branding checkbox, exaile, launchpad-integration, lightdm.
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Tue, 29 Jan 2013 20:07:02 +0700
+
 blankon-branding (1.2.42) suroboyo; urgency=low
 
   * revision branding about libreoffice. 
