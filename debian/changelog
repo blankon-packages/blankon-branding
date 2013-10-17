@@ -1,3 +1,9 @@
+blankon-branding (1.3.3) suroboyo; urgency=low
+
+  * update splash for pidgin and gnucash 
+
+ -- princeofgiri <princeofgiri@di.blankon.in>  Thu, 17 Oct 2013 17:34:35 +0700
+
 blankon-branding (1.3.2) suroboyo; urgency=low
 
   * update image for libreoffice, inkscape, gimp
