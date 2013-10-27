@@ -1,3 +1,9 @@
+blankon-branding (1.3.5) suroboyo; urgency=low
+
+  * debian/control drop blankon-branding-gnome-control-center
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Sun, 27 Oct 2013 22:57:50 +0700
+
 blankon-branding (1.3.4) suroboyo; urgency=low
 
   * Branding libreoffice :

@@ -40,12 +40,6 @@ Architecture: all
 Depends: ${shlibs:Depends}, network-manager-gnome
 Description: Add LXDE into nm-applet.desktop
 
-Package: blankon-branding-gnome-control-center
-Architecture: all
-Depends: ${shlibs:Depends}, gnome-control-center
-Description: Rebranding paket gnome ui ke paket BlankOn ui
- Mengganti image di gnome control center ui
-
 Package: blankon-branding-gnome-system-monitor
 Architecture: all
 Depends: ${shlibs:Depends}, gnome-system-monitor
