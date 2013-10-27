@@ -17,9 +17,9 @@ if [ -f /usr/lib/libreoffice/program/intro.png.divert ]; then
   rm -f /usr/lib/libreoffice/program/intro.png
   dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/intro.png
 fi
-if [ -f /usr/lib/libreoffice/program/about.png.divert ]; then
-  rm -f /usr/lib/libreoffice/program/about.png
-  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/about.png
+if [ -f /usr/lib/libreoffice/program/flat_logo.svg.divert ]; then
+  rm -f /usr/lib/libreoffice/program/flat_logo.svg
+  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/flat_logo.svg
 fi
 if [ -f /etc/libreoffice/sofficerc.divert ]; then
   rm -f /etc/libreoffice/sofficerc
