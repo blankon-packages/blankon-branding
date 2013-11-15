@@ -9,6 +9,14 @@ if [ -f /usr/lib/libreoffice/program/shell/backing_right.png.divert ]; then
   rm -f /usr/lib/libreoffice/program/shell/backing_right.png
   dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/shell/backing_right.png
 fi
+if [ -f /usr/lib/libreoffice/program/shell/backing_rtl_left.png.divert ]; then
+  rm -f /usr/lib/libreoffice/program/shell/backing_rtl_left.png
+  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/shell/backing_rtl_left.png
+fi
+if [ -f /usr/lib/libreoffice/program/shell/backing_rtl_right.png.divert ]; then
+  rm -f /usr/lib/libreoffice/program/shell/backing_rtl_right.png
+  dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/shell/backing_rtl_right.png
+fi
 if [ -f /usr/lib/libreoffice/program/shell/backing_space.png.divert ]; then
   rm -f /usr/lib/libreoffice/program/shell/backing_space.png
   dpkg-divert --local --remove --rename /usr/lib/libreoffice/program/shell/backing_space.png

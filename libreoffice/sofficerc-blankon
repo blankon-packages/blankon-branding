@@ -2,7 +2,7 @@
 HideEula=1
 Logo=1
 NativeProgress=true
-ProgressBarColor=115,210,22
-ProgressFrameColor=179,179,179
-ProgressPosition=140,172
+ProgressBarColor=223,223,223
+ProgressFrameColor=96,96,96
+ProgressPosition=90,172
 ProgressSize=322,7
